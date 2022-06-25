@@ -522,8 +522,8 @@ footer .container .lists{
     width: 10px;
     height: 10px;
     border-radius:50%;
- background-color: #fff;
- margin: 10px;
+    background-color: #fff;
+    margin: 10px;
 }
 
 .owl-dots .owl-dot.active span{
