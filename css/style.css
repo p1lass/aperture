@@ -297,6 +297,49 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 
+.past_clients{
+    background-color: #000000;
+    position: relative;
+    padding: 120px 120px 100px ;
+}
+.past_clients .container{
+    max-width: 1200px;
+
+}
+
+.past_clients_text h2{
+    margin-bottom: 15px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.past_clients_text p{
+    margin-bottom: 80px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+
+}
+.past_clients_logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.past_clients_logo .logo_owl{
+max-width: 128px;
+}
+    
+
+
+
 .himalai{
     background-image: url(../images/himalayas.jpg);
     background-size: cover;
@@ -469,4 +512,21 @@ footer .container .lists{
 }
 .footer_3 img:nth-child(2){
     margin-right: 26px;
+}
+.owl-dots {
+    display: flex;
+    justify-content: center;
+}
+.owl-dots .owl-dot span {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius:50%;
+ background-color: #fff;
+ margin: 10px;
+}
+
+.owl-dots .owl-dot.active span{
+    width: 13px;
+    height: 13px;
 }
